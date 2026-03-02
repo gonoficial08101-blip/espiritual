@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qual é seu animal espiritual?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Responda algumas perguntas rápidas e descubra seu animal espiritual." />
+    <meta name="referrer" content="no-referrer">
+</head>
+<body>
+        <header class="site-header">
+            <div class="wrap header-only-logo">
+                <a class="brand" href="https://www.zoodamaia.pt/" target="_blank" rel="noopener noreferrer">
+                    <img src="imagens/logo%20zoo-01.svg" alt="Logo" class="logo" />
+                </a>
+            </div>
+        </header>
+
+    <main class="wrap main-area">
+        <section class="hero">
+                    <div class="hero-inner">
+                        <div class="hero-copy">
+                            <h1>Descubra o seu animal espiritual</h1>
+                            <p class="lead">Responda ao nosso teste rápido e encontre o animal que mais se identifica com a sua personalidade.</p>
+                            <a href="#quiz" class="btn primary hero-cta">Fazer o teste</a>
+                        </div>
+                    </div>
+        </section>
+
+            <div class="content-grid single-column">
+                <div class="center-col">
+                    <div class="quiz-card">
+                        <h2>qual é o seu animal espiritual?</h2>
+                        <form id="quiz" class="quiz" aria-describedby="quiz-desc">
+                            <p id="quiz-desc" class="sr-only">Selecione uma opção em cada pergunta e clique em "Ver resultado".</p>
+
+                            <fieldset>
+                              <h3 class="q-title">1) Como prefere passar um dia livre?</h3>
+                                <label><input type="radio" name="q1" value="tigre" required /> Explorar a natureza sozinho</label>
+                                <label><input type="radio" name="q1" value="leao" /> Fazer uma atividade com amigos</label>
+                                <label><input type="radio" name="q1" value="lince" /> Observar as estrelas em silêncio</label>
+                                <label><input type="radio" name="q1" value="capivara" /> Ir à praia</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">2) Em um grupo, qual papel costuma assumir?</h3>
+                                <label><input type="radio" name="q2" value="leao" required /> Tomo decisões e lidero</label>
+                                <label><input type="radio" name="q2" value="arara" /> Gosto de me destacar e conversar</label>
+                                <label><input type="radio" name="q2" value="capivara" /> Não participo mas fico em paz</label>
+                                <label><input type="radio" name="q2" value="lince" /> Sou calado e atento</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">3) Como descreve o seu ritmo?</h3>
+                                <label><input type="radio" name="q3" value="avestruz" required /> Rápido e prático</label>
+                                <label><input type="radio" name="q3" value="urso" /> Calmo e poderoso</label>
+                                <label><input type="radio" name="q3" value="flamingo" /> Elegante e social</label>
+                                <label><input type="radio" name="q3" value="tigre" /> Ágil e independente</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">4) Como lida com conflitos?</h3>
+                                <label><input type="radio" name="q4" value="tigre" required /> Tento resolver logo</label>
+                                <label><input type="radio" name="q4" value="urso" /> Preocupo-me com os outros</label>
+                                <label><input type="radio" name="q4" value="avestruz" /> Evito e sigo em frente</label>
+                                <label><input type="radio" name="q4" value="arara" /> Uso conversa e charme</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">5) Qual estilo prefere em roupa/visual?</h3>
+                                <label><input type="radio" name="q5" value="zebra" required /> Original e estampado</label>
+                                <label><input type="radio" name="q5" value="arara" /> Cores vibrantes</label>
+                                <label><input type="radio" name="q5" value="capivara" /> Conforto simples</label>
+                                <label><input type="radio" name="q5" value="flamingo" /> Elegância distinta</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">6) Qual a sua maior força?</h3>
+                                <label><input type="radio" name="q6" value="urso" required /> Resiliência e calma</label>
+                                <label><input type="radio" name="q6" value="capivara" /> Sociabilidade</label>
+                                <label><input type="radio" name="q6" value="zebra" /> União com o meu grupo</label>
+                                <label><input type="radio" name="q6" value="tigre" /> Liberdade e agilidade</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">7) No tempo livre, prefere:</h3>
+                                <label><input type="radio" name="q7" value="arara" required /> Participar de eventos e socializar</label>
+                                <label><input type="radio" name="q7" value="flamingo" /> Fazer algo artístico ou elegante</label>
+                                <label><input type="radio" name="q7" value="capivara" /> Ficar com amigos e relaxar</label>
+                                <label><input type="radio" name="q7" value="tigre" /> Fazer atividade física intensa</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">8) Qual tipo de comida prefere?</h3>
+                                <label><input type="radio" name="q8" value="urso" required /> Pratos robustos e reconfortantes</label>
+                                <label><input type="radio" name="q8" value="arara" /> Sabores tropicais e coloridos</label>
+                                <label><input type="radio" name="q8" value="capivara" /> Cozinha simples e caseira</label>
+                                <label><input type="radio" name="q8" value="zebra" /> Experiências novas e diferentes</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">9) Onde se imagina a viver?</h3>
+                                <label><input type="radio" name="q9" value="lince" required /> Florestas remotas</label>
+                                <label><input type="radio" name="q9" value="flamingo" /> Áreas húmidas e margens de lago</label>
+                                <label><input type="radio" name="q9" value="leao" /> Planícies abertas e solares</label>
+                                <label><input type="radio" name="q9" value="urso" /> Montanhas tranquilas</label>
+                            </fieldset>
+
+                            <fieldset>
+                          <h3 class="q-title">10) Como as pessoas geralmente o descrevem?</h3>
+                                <label><input type="radio" name="q10" value="zebra" required /> Único e impactante</label>
+                                <label><input type="radio" name="q10" value="capivara" /> Amigável e fácil de lidar</label>
+                                <label><input type="radio" name="q10" value="lince" /> Reservado e observador</label>
+                                <label><input type="radio" name="q10" value="arara" /> Comunicativo e expressivo</label>
+                            </fieldset>
+
+                            <div class="actions">
+                                <button type="submit" class="btn primary">Ver resultado</button>
+                                <button type="button" id="resetBtn" class="btn" aria-hidden="true">Refazer</button>
+                            </div>
+                        </form>
+
+                    </div>
+                        
+                </div>
+
+                    <section id="result" class="result" hidden aria-live="polite"></section>
+            </div>
+
+        <footer id="contact" class="site-footer">
+            <div class="footer-inner">
+                <p>© 2026 — Todos os direitos reservados.</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/zoodamaia/?locale=pt_PT" aria-label="Facebook" target="_blank" rel="noopener noreferrer">f</a>
+                    <a href="https://www.youtube.com/@zoodamaia4922" aria-label="YouTube" target="_blank" rel="noopener noreferrer">y</a>
+                    <a href="https://www.instagram.com/zoo_da_maia/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">i</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
